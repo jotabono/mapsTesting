@@ -1,0 +1,52 @@
+body {
+    background-color: #f5e8d7 !important;
+    overflow-x: hidden;
+}
+
+.title {
+    color: rgb(255, 64, 125);
+    font-size: 90px;
+    font-weight: lighter;
+    letter-spacing: 20px;
+}
+
+#mapa {
+    border-top: 3px solid rgb(255, 64, 125);
+    border-bottom: 3px solid rgb(255, 64, 125);
+    height: 300px;
+    width: 100%;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+.formUbicacion {
+    margin-bottom: 50px;
+}
+
+.boton {
+  font-family: sans-serif;
+  font-weight: 200;
+  border:0;
+    box-shadow: none;
+    padding: 18px;
+    font-size: 18px;
+    background-color: rgb(255, 64, 125);
+    color: white;
+}
+
+.boton:hover{
+  transition:0.5s;
+  color:black;
+  background-color: rgba(255, 125, 167,1);
+}
+
+.boton:focus {
+    outline:none;
+}
+
+.myform{
+  font-size:24px !important;
+  height:50px !important;
+}
