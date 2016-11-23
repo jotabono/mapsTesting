@@ -7,6 +7,10 @@
     <author email="jotabono92@gmail.com" href="http://javierbono.com">
         Javier Bono
     </author>
+    <feature name="Geolocation">
+    <param name="android-package" value="org.apache.cordova.GeoBroker" />
+    </feature>
+
     <content src="index.html" />
     <access origin="*" />
     <access origin="*.google.com" />
